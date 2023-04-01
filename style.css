@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Navbar */
+
+nav{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+
+.choos ul{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.choos ul a li{
+
+    margin: 20px;
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    margin-right: 50px ;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.choos ul a li:hover{
+    border: 2px solid rgb(11, 11, 11);
+    border-radius: 8px;
+    padding: 9px;
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+
+}
+
+.choos ul a{
+    text-decoration: none;
+}
+/* logo */
+nav .B{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 45px;
+    border: 2px solid rgb(147, 140, 140);
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 190px;
+    padding: 3px;
+    margin-top: 25px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/*Section We Are   */
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding-top: 60px;
+}
+
+.sec1 .shop2{
+    top: 210px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    right: 535px;
+    position: absolute;
+}
+
+.sec1 .shop2:hover{
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    /* background-color: rgb(108, 106, 106); */
+
+}
+
+.sec1 .shop3 {
+
+    font-size: 20px;
+    position: absolute;
+    top: 210px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    right: 140px;
+}
+.sec1 .shop3:hover{
+        padding: 20px;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+}
+
+
+.sec1 .shop4 {
+
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 550px;
+    right: 530px;
+}
+
+
+.sec1 .shop4:hover{
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.sec1 .shop5 {
+    top: 550px;
+    position: absolute;
+    color: white;
+    right: 150px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+.sec1 .shop5:hover{
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.shop{
+    margin: 20px;
+    margin-left: 40px ;
+       
+}
+
+/* ////////////////////// */
+.big{
+    position: relative;
+    
+}
+
+.big .shop6{
+    position: absolute;
+    top: 550px;
+    font-size: 40px;
+    color: white;
+    /* text-align: center; */
+    /* align-items: center; */
+    top: 280px;
+    left: 90px;
+}
+.big{
+    margin: 20px;
+}
+
+.big img{
+    height: 664px;
+}
+
+.sec1 .shop6 h3{
+    width: 200px;
+    padding: 15px;
+    font-size: 25px;
+    margin: 60px 0;
+    border: 1px solid white;
+
+}
+.sec1 .shop6 h3:hover{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+/* Mens */
+
+.mens{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.address-content{
+
+    margin: 50px;
+    margin-top: 100px;
+    margin-left: 240px;
+}
+.address-content h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.address-content p{
+    font-style: italic;
+    color: grey;
+}
+
+.mens .arrow img{
+   cursor: pointer;
+    margin: 0 60px;
+    margin-top: 180px;
+    border: 1px solid black;
+}
+.mens h3,p{
+
+    margin-top: 10px;
+    
+}
+.mens h3{
+    font-size: 30px;
+}
+.mens p{
+    color: grey;
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+
+/* explore */
+
+.explore{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.explore .desc{
+
+    
+    line-height: 26px;
+    margin-left: 100px;
+}
+.explore .desc h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.explore .desc p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    color: gray;
+}
+
+.explore .desc .pra{
+
+    color: black;
+}
+
+.explore .desc button{
+
+    background-color: white;
+    margin-top: 80px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    width: 130px;
+    font-style: italic;
+    padding: 15px;
+}
+
+.explore .desc button:hover{
+    background-color: rgb(30, 29, 29);
+    color: white;
+    transition: 0.5s;
+}
+
+.explore-img{
+    margin: 50px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+/* social media */
+
+.social-media{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 30px;
+    margin: 0 150px;
+    padding-bottom: 200px;
+}
+
+.sub{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.sub h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.sub p {
+    margin-bottom: 35px;
+    color: gray;
+    font-style: italic;
+}
+.sub input{
+
+    width: 300px;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.sub button {
+    padding: 13px;
+    font-size: 16px;
+    width: 60px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.sub button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub .right-sub{
+    margin-right: 80px;
+}
+
+.sub .right-sub a{
+
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sub .right-sub h6{
+    margin: 15px 0;
+    font-size: 13.5px;
+    font-style: italic;
+    color: rgb(108, 107, 107);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 110px;
+    background-color:rgb(50, 49, 49);
+    width: 100%;
+    color: white;
+}
+
+.footer h4{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.footer a{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer .bl{
+    padding: 40px;
+    border-radius: 6px;
+    font-size: 60px;
+    border: 2px solid white;
+}
+
+.footer .bl:hover{
+
+    background: white;
+    cursor: pointer;
+    color: black;
+    transition: 0.4s;
+}
+
+.footer .copy{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.footer .design a:hover {
+    color: blue;
+}
+
+.footer .soo ul{
+    display: flex;
+    justify-content: space-around;
+    size: 70px;
+    margin: 100px 0;
+}
+
+.footer .soo ul a{
+    list-style: none;
+}
+
+.footer .soo ul a li i {
+    letter-spacing: 20px;
+    font-size: 50px;
+}
+
+.footer .soo ul a li i:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px; 
+}
